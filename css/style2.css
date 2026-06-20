@@ -1,0 +1,28 @@
+.box 
+{
+    height: 300px;
+    /* flex-direction: column; */
+    display: flex;
+    background-color: #333;
+    /* justify-content: center; */
+    gap: 20px;
+    align-items: end;
+}
+.item {
+    padding: 40px 30px;
+    background-color: orange;
+    border: 1px solid #333;
+    text-decoration: none;
+    /* align-content: space-between; */
+}
+.item-1 {
+    /* flex-grow: 1; */
+}
+.item:hover {
+    background-color: #d15a5a;
+
+}
+
+.item-2 {
+    /* margin-left: auto; */
+}

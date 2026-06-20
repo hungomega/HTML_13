@@ -1,0 +1,26 @@
+.header,
+.article,
+.text-box,
+.text-1,
+.text-2,
+.main,
+.footer {
+    display: flex;
+    padding: 30px;
+
+    color: #fff;
+    background-color: #333;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container {
+    display: flex;
+    gap: 20px;    
+}
+.article,
+.flex-box {
+    flex-grow: 1;
+}
